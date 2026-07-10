@@ -1,4 +1,4 @@
-package com.example.ui
+package com.mcg.financemaster.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -19,10 +19,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.example.data.Transaction
-import com.example.data.TransactionType
-import com.example.ui.theme.ExpenseColor
-import com.example.ui.theme.IncomeColor
+import com.mcg.financemaster.data.Transaction
+import com.mcg.financemaster.data.TransactionType
+import com.mcg.financemaster.ui.theme.ExpenseColor
+import com.mcg.financemaster.ui.theme.IncomeColor
 import java.text.NumberFormat
 import java.text.SimpleDateFormat
 import java.util.Date

@@ -1,21 +1,16 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Finance Master
 
-# Run and deploy your AI Studio app
+Aplicativo Android para controle financeiro pessoal, desenvolvido com Kotlin, Jetpack Compose e Room.
 
-This contains everything you need to run your app locally.
+## Requisitos
 
-View your app in AI Studio: https://ai.studio/apps/abdbb8ee-d279-4aab-986a-558189b15216
+- Android Studio
+- JDK compatível com o Android Gradle Plugin do projeto
+- Android SDK 36
 
-## Run Locally
+## Estrutura
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+- `app/src/main/java/com/mcg/financemaster/ui`: telas, navegação e estado da interface
+- `app/src/main/java/com/mcg/financemaster/data`: banco Room, DAO, entidades e repositório
 
-
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+Abra a pasta do projeto no Android Studio para trabalhar no aplicativo.

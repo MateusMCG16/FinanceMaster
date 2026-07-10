@@ -1,4 +1,4 @@
-package com.example.ui
+package com.mcg.financemaster.ui
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn

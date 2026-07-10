@@ -1,10 +1,10 @@
-package com.example.ui
+package com.mcg.financemaster.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import com.example.data.FinanceRepository
-import com.example.data.Transaction
+import com.mcg.financemaster.data.FinanceRepository
+import com.mcg.financemaster.data.Transaction
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.map

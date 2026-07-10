@@ -1,4 +1,4 @@
-package com.example.data
+package com.mcg.financemaster.data
 
 import kotlinx.coroutines.flow.Flow
 

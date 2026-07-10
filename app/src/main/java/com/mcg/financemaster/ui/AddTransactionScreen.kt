@@ -1,4 +1,4 @@
-package com.example.ui
+package com.mcg.financemaster.ui
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.text.KeyboardOptions
@@ -9,8 +9,8 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
-import com.example.data.Transaction
-import com.example.data.TransactionType
+import com.mcg.financemaster.data.Transaction
+import com.mcg.financemaster.data.TransactionType
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

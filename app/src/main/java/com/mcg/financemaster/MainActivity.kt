@@ -1,4 +1,4 @@
-package com.example
+package com.mcg.financemaster
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -22,17 +22,17 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.room.Room
-import com.example.data.AppDatabase
-import com.example.data.FinanceRepository
-import com.example.ui.AddTransactionRoute
-import com.example.ui.AddTransactionScreen
-import com.example.ui.DashboardRoute
-import com.example.ui.DashboardScreen
-import com.example.ui.FinanceViewModel
-import com.example.ui.FinanceViewModelFactory
-import com.example.ui.TransactionListScreen
-import com.example.ui.TransactionsRoute
-import com.example.ui.theme.MyApplicationTheme
+import com.mcg.financemaster.data.AppDatabase
+import com.mcg.financemaster.data.FinanceRepository
+import com.mcg.financemaster.ui.AddTransactionRoute
+import com.mcg.financemaster.ui.AddTransactionScreen
+import com.mcg.financemaster.ui.DashboardRoute
+import com.mcg.financemaster.ui.DashboardScreen
+import com.mcg.financemaster.ui.FinanceViewModel
+import com.mcg.financemaster.ui.FinanceViewModelFactory
+import com.mcg.financemaster.ui.TransactionListScreen
+import com.mcg.financemaster.ui.TransactionsRoute
+import com.mcg.financemaster.ui.theme.FinanceMasterTheme
 
 class MainActivity : ComponentActivity() {
     private lateinit var viewModel: FinanceViewModel
@@ -50,7 +50,7 @@ class MainActivity : ComponentActivity() {
         viewModel = ViewModelProvider(this, factory)[FinanceViewModel::class.java]
 
         setContent {
-            MyApplicationTheme {
+            FinanceMasterTheme {
                 MainAppScreen(viewModel)
             }
         }

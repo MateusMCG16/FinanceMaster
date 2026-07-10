@@ -1,4 +1,4 @@
-package com.example.ui
+package com.mcg.financemaster.ui
 
 import kotlinx.serialization.Serializable
 
